@@ -651,12 +651,12 @@ width: 15px;
 }
 
 a.button {
-background-color: #222;
-border: 1px solid #444;
+	background-color: #222;
+	border: 1px solid #444;
 }
 
 #sgpCP_Changelog {
-padding-right: 5px;
+	padding-right: 5px;
 }
 }
 
