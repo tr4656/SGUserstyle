@@ -667,6 +667,17 @@ a.button {
 background-color: #000;
 border: 1px solid #1b1b1b;
 }
+
+.wishlist .row, .recommended .row, div  [style*="border-bottom: 1px dashed #ddd"] {
+	border-bottom: 1px dashed #444 !important;
+}
+.wishlist .row, .recommended .row , div [style*="border-top: 1px dashed #fff"] {
+	border-top: 1px dashed #222 !important;
+}
+div [style*="margin-top:25px; border-top:1px dashed #ddd; border-bottom:1px dashed #fff;"]{
+	border-bottom: 1px dashed #444 !important;
+	border-top: 1px dashed #222 !important;
+}
 }
 
 @-moz-document url-prefix("http://steamgifts.com/user/"), url-prefix("http://www.steamgifts.com/user/") {
