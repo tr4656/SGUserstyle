@@ -452,7 +452,7 @@ div[style] {
     background-color: #212225;
 }
 .description {
-//    width: 704px !important;
+    width: 704px !important;
     margin-left: 10px !important;
 }
 .entries {
@@ -593,4 +593,12 @@ label[for=body], label[for=title], label[for=contributor], label[for=private], l
 .footer_sales .sale.left:hover {
 	border-right:1px solid #333;
 }
+}
+
+@-moz-document url-prefix("http://steamgifts.com/user/"), url-prefix("http://www.steamgifts.com/user/") {
+.description {
+    width: 780px !important;
+    margin-left: 10px !important;
+}
+
 }
