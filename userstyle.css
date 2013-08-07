@@ -664,8 +664,8 @@ a.button {
 }
 
 .recommended .row .left {
-background-color: #000;
-border: 1px solid #1b1b1b;
+	background-color: #000;
+	border: 1px solid #1b1b1b;
 }
 
 .wishlist .row, .recommended .row, div  [style*="border-bottom: 1px dashed #ddd"] {
@@ -680,7 +680,7 @@ div [style*="margin-top:25px; border-top:1px dashed #ddd; border-bottom:1px dash
 }
 
 input, textarea, keygen, select, button, isindex {
-color: inherit !important
+	color: inherit !important
 }
 }
 
