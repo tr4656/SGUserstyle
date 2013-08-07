@@ -654,6 +654,10 @@ a.button {
 background-color: #222;
 border: 1px solid #444;
 }
+
+#sgpCP_Changelog {
+padding-right: 5px;
+}
 }
 
 @-moz-document url-prefix("http://steamgifts.com/user/"), url-prefix("http://www.steamgifts.com/user/") {
