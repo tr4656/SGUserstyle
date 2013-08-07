@@ -597,6 +597,16 @@ label[for=body], label[for=title], label[for=contributor], label[for=private], l
 input.sgpInput {
 	border: 1px solid rgba(0,0,0,1) !important;
 }
+
+.sgpDropdownFilterControlsAbsolute {
+	background-color: #1a1a1a;
+	border: 1px solid #363636;
+}
+
+.absolute_dropdown {
+	background-color: #1a1a1a;
+	border: 1px solid #363636;
+}
 }
 
 @-moz-document url-prefix("http://steamgifts.com/user/"), url-prefix("http://www.steamgifts.com/user/") {
