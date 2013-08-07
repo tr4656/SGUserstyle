@@ -642,6 +642,11 @@ width: 15px;
 	border: 1px solid #201f1f;
 }
 
+.navigation .search
+	background-color: #444;
+}
+
+
 @-moz-document url-prefix("http://steamgifts.com/user/"), url-prefix("http://www.steamgifts.com/user/") {
 .description {
     width: 780px !important;
