@@ -550,7 +550,7 @@ label[for=body], label[for=title], label[for=contributor], label[for=private], l
 }
 .wishlist_ajax .wishlist .row.first:hover, .wishlist_ajax .wishlist .row:hover, .wishlist_ajax .recommended .row.first:hover, .wishlist_ajax .recommended .row:hover {
     background-color: #2a2a2a !important;
-}
+
 .recommended .row .left {
     background-color: #333 !important;
     border: none !important;
@@ -559,5 +559,169 @@ label[for=body], label[for=title], label[for=contributor], label[for=private], l
     background-color: #2a2a2a !important;
     border: 1px solid #444 !important;
 }
-    
+.footer_sm {
+	background-image: inherit;
+	background-color: inherit;
 }
+
+.footer_sales .sale {
+	background-color: #222222;
+	box-shadow: 0 0 25px rgba(255, 255, 255, 0.03) inset, 0 30px 50px rgba(0, 0, 0, 0.54) inset, 1px 2px 1px rgba(0, 0, 0, 0.3) inset, 1px 3px 3px rgba(255, 255, 255, 0.1), 1px 1px 0px rgba(255, 255, 255, 0.25);
+	border: 1px solid #000;
+	border-bottom: 1px solid #292929;
+	border-right: 1px solid #292929;
+}
+
+.footer_sales .sale .thumbnail {
+	border: 1px solid #1b1b1b;
+	background-color: #000;
+}
+
+.footer_sales .sale .details .price_container .price {
+	text-shadow: 1px 1px #000;
+}
+
+.footer_sales .sale .details .price_container .price .list_price {
+	color: #666;
+}
+
+
+.footer_sales .sale:hover{
+	box-shadow: 0 0 25px rgba(255, 255, 255, 0.03) inset, 0 30px 50px rgba(0, 0, 0, 0.7) inset, 6px 13px 12px rgba(255,255,255,0.15) inset, 2px 5px 4px rgba(255,255,255,0.05) inset, 1px 3px 2px rgba(0, 0, 0, 0.17), 1px 1px 1px rgba(0,0,0, 0.3);
+	background-color:#303030;
+}
+
+.footer_sales .sale:hover, .footer_sales .sale.left:hover, .footer_sales .sale.right:hover {
+	border-top:1px solid #414141;
+	border-left:1px solid #454545;
+}
+
+.footer_sales .sale.left:hover {
+	border-right:1px solid #333;
+}
+
+input.sgpInput {
+	border: 1px solid rgba(0,0,0,1) !important;
+}
+
+.sgpDropdownFilterControlsAbsolute {
+	background-color: #1a1a1a;
+	border: 1px solid #363636;
+}
+
+.absolute_dropdown {
+	background-color: #1a1a1a;
+	border: 1px solid #363636;
+}
+::-webkit-scrollbar {
+width: 15px;
+      background-color: #111;
+}
+::-webkit-scrollbar-thumb {
+    background: #445;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #557;
+}
+::-webkit-scrollbar-thumb:active {
+    background: #669;
+}
+::-webkit-scrollbar-button {
+      background-color: #223;
+}
+::-webkit-scrollbar-button:hover {
+      background-color: #335;
+}
+::-webkit-scrollbar-button:active {
+      background-color: #447;
+}
+
+.sgpOverlay {
+	background-color: #0b0b0b;
+	background-image: none;
+	border: 1px solid #201f1f;
+}
+
+#sgpIgnoredUsersAdd, #sgpTaggedUsersAdd, #sgpTaggedUsersAddTag, #sgpFilteredGamesAdd, #gi_f_entrylimit_value, .sgpIgnoredUser, .sgpTaggedUser, .sgpFilteredGame {
+	background-color: #161614 !important;
+	background-image: none !important;
+	border: 1px solid #201f1f !important;
+	color: #AAA !important;
+}
+
+.navigation .search {
+	background-color: #444;
+}
+
+.sgpIgnoredUser a.sgpRemoveListItem img, .sgpTaggedUser a.sgpRemoveListItem img, .sgpFilteredGame a.sgpRemoveListItem img {
+	opacity: 0.4 !important;
+}
+
+a.button {
+	background-color: #222;
+	border: 1px solid #444;
+}
+
+#sgpCP_Changelog {
+	padding-right: 5px;
+}
+
+#sgpTaggedUsersAddTag {
+	text-shadow:none;
+}
+.wishlist .row, .recommended .row, div  [style*="border-bottom: 1px dashed #ddd"] {
+	border-bottom: 1px dashed #444 !important;
+}
+.wishlist .row, .recommended .row , div [style*="border-top: 1px dashed #fff"] {
+	border-top: 1px dashed #222 !important;
+}
+div [style*="margin-top:25px; border-top:1px dashed #ddd; border-bottom:1px dashed #fff;"]{
+	border-bottom: 1px dashed #444 !important;
+	border-top: 1px dashed #222 !important;
+}
+
+input[type="submit"] {
+	color: #BBB !important;
+	border-color: #888 !important;
+	border-style: groove !important;
+}
+
+#navigation ol li.open {
+	background-color: #333;	
+}
+
+#navigation ol li.open a.arrow {
+	background-image: url(../img/navigation_dropdown_arrow_click.png);
+	color: #CCC !important;
+}
+
+#navigation .absolute-dropdown {
+	background-color: #333 !important;
+}
+
+#navigation .absolute-dropdown ul li a:hover{
+	color:#5555ff;
+	border:1px solid #c3caff;
+}
+
+.sgpDropdownMenuItems {
+	background-color: #161614 !important;
+	border: 1px solid #403f3f !important;
+}
+
+a.sgpDropdownTextboxItem {
+	text-shadow: none !important;
+}
+.sgpDropdownTextboxItems {
+	background-color: #3a3a3a;
+	border: 1px solid #222;
+	color: #636E75;
+}
+}
+@-moz-document url-prefix("http://steamgifts.com/user/"), url-prefix("http://www.steamgifts.com/user/") {
+.description {
+    width: 780px !important;
+    margin-left: 10px !important;
+}
+}
+
