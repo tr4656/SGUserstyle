@@ -678,6 +678,10 @@ div [style*="margin-top:25px; border-top:1px dashed #ddd; border-bottom:1px dash
 	border-bottom: 1px dashed #444 !important;
 	border-top: 1px dashed #222 !important;
 }
+
+input, textarea, keygen, select, button, isindex {
+color: inherit !important
+}
 }
 
 @-moz-document url-prefix("http://steamgifts.com/user/"), url-prefix("http://www.steamgifts.com/user/") {
