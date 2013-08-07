@@ -645,6 +645,10 @@ width: 15px;
 .navigation .search {
 	background-color: #444;
 }
+
+.sgpIgnoredUser a.sgpRemoveListItem img, .sgpTaggedUser a.sgpRemoveListItem img, .sgpFilteredGame a.sgpRemoveListItem img {
+	opacity: 0.4 !important;
+}
 }
 
 @-moz-document url-prefix("http://steamgifts.com/user/"), url-prefix("http://www.steamgifts.com/user/") {
