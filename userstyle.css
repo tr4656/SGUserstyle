@@ -706,6 +706,11 @@ input[type="submit"] {
 	color:#5555ff;
 	border:1px solid #c3caff;
 }
+
+.sgpDropdownMenuItems {
+	background-color: #161614 !important;
+	border: 1px solid #403f3f !important;
+}
 }
 
 @-moz-document url-prefix("http://steamgifts.com/user/"), url-prefix("http://www.steamgifts.com/user/") {
