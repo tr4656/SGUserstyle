@@ -516,7 +516,6 @@ label[for=body], label[for=title], label[for=contributor], label[for=private], l
     color: #EAEAEB !important;
 }
 .post { margin-right: 0px !important;}
-}
 .post .center { margin-right: 6px !important;}
 .textarea{
     background: #444 !important;
@@ -642,10 +641,10 @@ width: 15px;
 	border: 1px solid #201f1f;
 }
 
-.navigation .search
+.navigation .search {
 	background-color: #444;
 }
-
+}
 
 @-moz-document url-prefix("http://steamgifts.com/user/"), url-prefix("http://www.steamgifts.com/user/") {
 .description {
