@@ -593,6 +593,10 @@ label[for=body], label[for=title], label[for=contributor], label[for=private], l
 .footer_sales .sale.left:hover {
 	border-right:1px solid #333;
 }
+
+input.sgpInput {
+	border: 1px solid rgba(0,0,0,1) !important;
+}
 }
 
 @-moz-document url-prefix("http://steamgifts.com/user/"), url-prefix("http://www.steamgifts.com/user/") {
