@@ -5,10 +5,10 @@ p, .discussions .details .title, .discussions .details .title a {
 html, body, ul, ol, li, img, h1, h2, h3, h4, h5, h6, form, fieldset {
     background: transparent;
     color: #EAEAEB !important;
-    text-shadow: none;
     outline: none;
     text-decoration: none;
     font-style: none;
+    text-shadow: none !important;
 }
 body {
     font-family: Helvetica, Arial, sans-serif;
@@ -27,12 +27,13 @@ hr {
     border: 1px solid #444;
 }
 .post {
-    border: 1px solid #292a2e;
-    border-bottom: 1px solid #292a2e;
-    background: #212121;
+    border: 1px solid #292a2e !important;
+    border-bottom: 1px solid #292a2e !important;
+    background: #212121 !important;
 }
 .pagination {
-    background: #2a2a2a;
+    background-color: #2a2a2a !important;
+    background-image:none !important;
     color: #fff;
     border: 1px solid #444 !important;
 }
@@ -47,7 +48,7 @@ hr {
 }
 .wrapper {
     /*  background: #1c1c1c !important; */
-    background: #242424;
+    background-color: #1A1A1A !important;
     background-image: url(http://i.imgur.com/OPdh3Yj.png) !important;
     color: #fff;
 }
@@ -58,36 +59,36 @@ hr {
     border: 1px solid transparent !important;
 }
 .post .left .title, .post .left .title a {
-    color: #EAEAEB;
+    color: #EAEAEB !important;
     outline: none;
     font-family: Helvetica, Arial, Times New Roman;
-    text-shadow: none;
+    text-shadow: none !important;
 }
 .post .left .entries a {
-    color: #EAEAEB;
+    color: #EAEAEB !important;
     font-size: 100%;
 }
 .recent_winners .row .details, .top_contributors .row .details {
     background: transparent;
-    color: #EAEAEB;
+    color: #EAEAEB !important;
 }
 .recent_winners .row.first, .top_contributors .row.first {
     background: #313237;
-    color: #EAEAEB;
-    border: 1px solid #292a2e;
+    color: #EAEAEB !important;
+    border: 1px solid #292a2e !important; 
 }
 .recent_winners .row, .top_contributors .row {
     background: #212225;
-    color: #EAEAEB;
-    border: 1px solid #292a2e;
+    color: #EAEAEB !important;
+    border: 1px solid #292a2e !important;
 }
 .top_contributors .row .gift_value {
     background: transparent;
-    color: #EAEAEA;
+    color: #EAEAEA !important;
     text-decoration: none;
     font-style: normal;
     outline: none;
-    text-shadow: none;
+    text-shadow: none !important;
     letter-spacing: 1px;
     width: 108px;
     margin-right: 10px;
@@ -143,14 +144,14 @@ hr {
     opacity: 1.0 !important;
 }
 .discussions .body, .comment.child .child_container {
-    background: #222;
-    color: #ff7;
+    background: #222 !important;
+    color: #ff7 !important;
     border: 1px solid #444 !important;
-    border-radius: 15px 15px 15px 15px;
 }
-.comment_body textarea {
-    background: #444;
-    color: #EAEAEB;
+.body_container .comment_body textarea,{
+    background-color: #444 !important;
+    color: #EAEAEB !important;
+    border: none !important;
 }
 .discussions .details .title, .discussions .details .title a {
     text-decoration: none;
@@ -170,7 +171,7 @@ hr {
 }
 .sub_navigation a.button {
     background: #000 !important;
-    color: #09F;
+    color: #09F !important;
 }
 .discussions .body, .comment.child .child_container {
     border-left: 1px solid #444;
@@ -183,7 +184,7 @@ hr {
 .invites .row .code, .invites .heading {
     text-decoration: none;
     outline: none;
-    text-shadow: none;
+    text-shadow: none !important;
     color: #fff;
 }
 .register .input .notification {
@@ -209,8 +210,8 @@ hr {
     background: #282A34;
 }
 .create_giveaway .divider {
-    border-top: 1px solid #444;
-    border-bottom: 1px solid #444;
+    border-top: 1px solid #444 !important;
+    border-bottom: 1px solid #444 !important;
 }
 .post.fade {
     -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
@@ -218,8 +219,8 @@ hr {
     opacity: 0.5;
 }
 .post .right {
-    background: #333;
-    border: 1px solid #444;
+    background: #333 !important; 
+    border: 1px solid #444 !important;
     border-radius: 5px 5px 5px 5px;
 }
 div#visualization {
@@ -234,8 +235,9 @@ div#gafPopup {
     color: #ff7 !important;
 }
 input, textarea, keygen, select, button, isindex {
-    background: #444;
-    color: #ff7;
+    background: #444 !important;
+    background-color: #444 !important;
+    color: #EAEAEA !important;
 }
 a {
     color: #EAEAEB;
@@ -281,7 +283,7 @@ a {
     background: #222;
 }
 .comment_container, .parent_container {
-    border:none;
+    border:none !important;
 }
 .discussions .row.borderless {
     border: 1px solid #444;
@@ -389,14 +391,16 @@ div[style] {
 }
 .mod_container .review_container textarea {
     background-color: #2e2e2e !important;
+    background: #2e2e2e !important;
 }
 .no_results, .content .create_giveaway .notification, .create_giveaway .input select, .create_giveaway .input input, .date_description, .create_giveaway .input select, .create_giveaway .input input, .create_giveaway .input textarea {
-    background: #333;
-    color: #EAEAEB;
-    border: 1px solid #444;
-    text-decoration: none;
-    outline: none;
-    text-shadow: none;
+    background: #333 !important;
+    background-color: #333 !important;
+    color: #EAEAEB !important;
+    border: 1px solid #444 !important;
+    text-decoration: none !important;
+    outline: none !important;
+    text-shadow: none !important;
 }
 .or {
     text-shadow: 1px 1px #000 !important;
@@ -435,11 +439,14 @@ div[style] {
     padding-left: 5px;
 }
 .content_divider {
-    border-bottom: 1px solid #292a2e;
-    border-top: 1px dotted #000;
+    border-bottom: 1px solid #292a2e !important;
+    border-top: 1px dotted #000 !important;
 }
 .sub_navigation {
     border-radius: 5px 5px 0 0;
+    background-image:none !important;
+    background-color: #1A1A1A !important;
+    border-color: #313137 !important;
 }
 .featured {
     background-color: #212225;
@@ -504,8 +511,46 @@ div[style] {
 .child_container div span {
     text-shadow: none !important;
 }
-label[for=body], label[for=title], label[for=contributor], label[for=private], label[for=date], label[for=copies], label[for=game_id] {
+label[for=body], label[for=title], label[for=contributor], label[for=private], label[for=date], label[for=copies], label[for=game_id], span .private, .row .title, strong, .status, .sgpWinChance, .entries, .c_sent, .c_received, .date_entered, .received, .details, .wishlist_ajax .wishlist .heading,.wishlist_ajax .recommended .heading, .footer_column .h4 ul {
     text-shadow: none !important;
     color: #EAEAEB !important;
 }
+.post { margin-right: 0px !important;}
+}
+.post .center { margin-right: 6px !important;}
+.textarea{
+    background: #444 !important;
+    background-color: #444 !important;
+    color: #EAEAEB !important;
+}
+.row.headings {
+    background-color: #2a2a2a !important;
+}
+.row .title a {
+    color: rgb(52, 125, 181) !important;
+}
+.manage.won_container .row, .manage.created_container .row, .manage.entries_container .row{
+    background-color: #212121 !important;
+    border: 1px solid #292a2e !important;
+    border-bottom: 1px solid #292a2e !important;
+}
+.manage.won_container .row .title, .row, .manage.created_container .row .title,.manage.entries_container .row .entries {
+ margin-left: 0 !important;
+}
+.manage.won_container .row .received, .manage.created_container .row .c_received,.manage.entries_container .row .entries {
+    padding-right: 0px !important;
+}
+.content .notification {
+    background-color: #2a2a2a !important;
+    color: #EAEAEB !important;
+    background-image: none !important;
+    border: none !important;
+}
+.winner .avatar_overlay {
+    background-image: url(http://i.imgur.com/JLGzyXp.png) !important;
+}
+.wishlist_ajax .wishlist .row.first:hover, .wishlist_ajax .wishlist .row:hover, .wishlist_ajax .recommended .row.first:hover, .wishlist_ajax .recommended .row:hover {
+    background-color: #2a2a2a !important;
+}
+
 }
