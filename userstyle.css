@@ -688,6 +688,24 @@ input[type="submit"] {
 	border-color: #888 !important;
 	border-style: groove !important;
 }
+
+#navigation ol li.open {
+	background-color: #333;	
+}
+
+#navigation ol li.open a.arrow {
+	background-image: url(../img/navigation_dropdown_arrow_click.png);
+	color: #CCC !important;
+}
+
+#navigation .absolute-dropdown {
+	background-color: #333 !important;
+}
+
+#navigation .absolute-dropdown ul li a:hover{
+	color:#5555ff;
+	border:1px solid #c3caff;
+}
 }
 
 @-moz-document url-prefix("http://steamgifts.com/user/"), url-prefix("http://www.steamgifts.com/user/") {
@@ -695,5 +713,4 @@ input[type="submit"] {
     width: 780px !important;
     margin-left: 10px !important;
 }
-
 }
