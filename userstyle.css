@@ -629,6 +629,11 @@ width: 15px;
 ::-webkit-scrollbar-button:active {
       background-color: #447;
 }
+
+.sgpOverlay {
+	background-color: #0b0b0b;
+	background-image: none;
+	border: 1px solid #201f1f;
 }
 
 @-moz-document url-prefix("http://steamgifts.com/user/"), url-prefix("http://www.steamgifts.com/user/") {
