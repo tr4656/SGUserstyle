@@ -636,6 +636,12 @@ width: 15px;
 	border: 1px solid #201f1f;
 }
 
+#sgpIgnoredUsersAdd, #sgpTaggedUsersAdd, #sgpTaggedUsersAddTag, #sgpFilteredGamesAdd, #gi_f_entrylimit_value, .sgpIgnoredUser, .sgpTaggedUser, .sgpFilteredGame {
+	background-color: #161614;
+	background-image: none;
+	border: 1px solid #201f1f;
+}
+
 @-moz-document url-prefix("http://steamgifts.com/user/"), url-prefix("http://www.steamgifts.com/user/") {
 .description {
     width: 780px !important;
