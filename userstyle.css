@@ -607,6 +607,28 @@ input.sgpInput {
 	background-color: #1a1a1a;
 	border: 1px solid #363636;
 }
+::-webkit-scrollbar {
+width: 15px;
+      background-color: #111;
+}
+::-webkit-scrollbar-thumb {
+    background: #445;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #557;
+}
+::-webkit-scrollbar-thumb:active {
+    background: #669;
+}
+::-webkit-scrollbar-button {
+      background-color: #223;
+}
+::-webkit-scrollbar-button:hover {
+      background-color: #335;
+}
+::-webkit-scrollbar-button:active {
+      background-color: #447;
+}
 }
 
 @-moz-document url-prefix("http://steamgifts.com/user/"), url-prefix("http://www.steamgifts.com/user/") {
