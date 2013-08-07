@@ -658,6 +658,10 @@ a.button {
 #sgpCP_Changelog {
 	padding-right: 5px;
 }
+
+#sgpTaggedUsersAddTag {
+	text-shadow:none;
+}
 }
 
 @-moz-document url-prefix("http://steamgifts.com/user/"), url-prefix("http://www.steamgifts.com/user/") {
