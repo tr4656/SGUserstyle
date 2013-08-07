@@ -662,6 +662,11 @@ a.button {
 #sgpTaggedUsersAddTag {
 	text-shadow:none;
 }
+
+.recommended .row .left {
+background-color: #000;
+border: 1px solid #1b1b1b;
+}
 }
 
 @-moz-document url-prefix("http://steamgifts.com/user/"), url-prefix("http://www.steamgifts.com/user/") {
