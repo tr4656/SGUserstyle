@@ -1,5 +1,5 @@
-@-moz-document domain("steamgifts.com") {
-p, .discussions .details .title, .discussions .details .title a {
+@-moz-document domain("steamgifts.com") { 
+ p, .discussions .details .title, .discussions .details .title a {
     color: rgb(234, 234, 235) !important;
 }
 html, body, ul, ol, li, img, h1, h2, h3, h4, h5, h6, form, fieldset {
@@ -30,6 +30,7 @@ hr {
     border: 1px solid #292a2e !important;
     border-bottom: 1px solid #292a2e !important;
     background: #212121 !important;
+    margin:1px -1px 1px -1px !important;
 }
 .pagination {
     background-color: #2a2a2a !important;
@@ -50,6 +51,7 @@ hr {
     /*  background: #1c1c1c !important; */
     background-color: #1A1A1A !important;
     background-image: url(http://i.imgur.com/OPdh3Yj.png) !important;
+    background-repeat: repeat !important;
     color: #fff;
 }
 .post .left .description, .post .left .description .time_remaining, .post .left .description .created_by, .post .left .description .created_by a, .discussions .details {
@@ -75,7 +77,7 @@ hr {
 .recent_winners .row.first, .top_contributors .row.first {
     background: #313237;
     color: #EAEAEB !important;
-    border: 1px solid #292a2e !important; 
+    border: 1px solid #292a2e !important;
 }
 .recent_winners .row, .top_contributors .row {
     background: #212225;
@@ -131,11 +133,11 @@ hr {
     background-position: center top !important;
 }
 .pagination .numbers a.selected {
-    color: #f00;
+    color: #f66 !important;
     text-decoration: none;
 }
 .pagination .numbers a {
-    color: #aaf;
+    color: #11b2ff !important;
     text-decoration: none;
 }
 #navigation .left ol li a, #navigation .left ol li a {
@@ -148,7 +150,7 @@ hr {
     color: #ff7 !important;
     border: 1px solid #444 !important;
 }
-.body_container .comment_body textarea,{
+.body_container .comment_body textarea, {
     background-color: #444 !important;
     color: #EAEAEB !important;
     border: none !important;
@@ -219,7 +221,7 @@ hr {
     opacity: 0.5;
 }
 .post .right {
-    background: #333 !important; 
+    background: #333 !important;
     border: 1px solid #444 !important;
     border-radius: 5px 5px 5px 5px;
 }
@@ -452,7 +454,6 @@ div[style] {
     background-color: #212225;
 }
 .description {
-    
     margin-left: 10px !important;
 }
 .entries {
@@ -481,7 +482,7 @@ div[style] {
 }
 .post .avatar_overlay {
     background-image: url(data:image/png;base64,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) !important;
- }
+}
 .comment.parent .avatar_overlay {
     background-image: url(http://i.imgur.com/P6JbZRR.png) !important;
 }
@@ -511,13 +512,14 @@ div[style] {
 .child_container div span {
     text-shadow: none !important;
 }
-label[for=body], label[for=title], label[for=contributor], label[for=private], label[for=date], label[for=copies], label[for=game_id], span .private, .row .title, strong, .status, .sgpWinChance, .entries, .c_sent, .c_received, .date_entered, .received, .details, .wishlist_ajax .wishlist .heading,.wishlist_ajax .recommended .heading, .footer_column .h4 ul {
+label[for=body], label[for=title], label[for=contributor], label[for=private], label[for=date], label[for=copies], label[for=game_id], span .private, .row .title, strong, .status, .sgpWinChance, .entries, .c_sent, .c_received, .date_entered, .received, .details, .wishlist_ajax .wishlist .heading, .wishlist_ajax .recommended .heading, .footer_column .h4 ul {
     text-shadow: none !important;
     color: #EAEAEB !important;
 }
-.post { margin-right: 0px !important;}
-.post .center { margin-right: 6px !important;}
-.textarea{
+.post .center {
+    margin-right: 6px !important;
+}
+.textarea {
     background: #444 !important;
     background-color: #444 !important;
     color: #EAEAEB !important;
@@ -528,29 +530,28 @@ label[for=body], label[for=title], label[for=contributor], label[for=private], l
 .row .title a {
     color: rgb(52, 125, 181) !important;
 }
-.manage.won_container .row, .manage.created_container .row, .manage.entries_container .row{
+.manage.won_container .row, .manage.created_container .row, .manage.entries_container .row {
     background-color: #212121 !important;
     border: 1px solid #292a2e !important;
     border-bottom: 1px solid #292a2e !important;
 }
-.manage.won_container .row .title, .row, .manage.created_container .row .title,.manage.entries_container .row .entries {
- margin-left: 0 !important;
+.manage.won_container .row .title, .row, .manage.created_container .row .title, .manage.entries_container .row .entries {
+    margin-left: 0 !important;
 }
-.manage.won_container .row .received, .manage.created_container .row .c_received,.manage.entries_container .row .entries {
+.manage.won_container .row .received, .manage.created_container .row .c_received, .manage.entries_container .row .entries {
     padding-right: 0px !important;
 }
 .content .notification {
     background-color: #2a2a2a !important;
     color: #EAEAEB !important;
     background-image: none !important;
-    
 }
 .winner .avatar_overlay {
     background-image: url(http://i.imgur.com/JLGzyXp.png) !important;
 }
 .wishlist_ajax .wishlist .row.first:hover, .wishlist_ajax .wishlist .row:hover, .wishlist_ajax .recommended .row.first:hover, .wishlist_ajax .recommended .row:hover {
     background-color: #2a2a2a !important;
-
+}
 .recommended .row .left {
     background-color: #333 !important;
     border: none !important;
@@ -560,62 +561,51 @@ label[for=body], label[for=title], label[for=contributor], label[for=private], l
     border: 1px solid #444 !important;
 }
 .footer_sm {
-	background-image: inherit;
-	background-color: inherit;
+    background-image: inherit;
+    background-color: inherit;
 }
-
 .footer_sales .sale {
-	background-color: #222222;
-	box-shadow: 0 0 25px rgba(255, 255, 255, 0.03) inset, 0 30px 50px rgba(0, 0, 0, 0.54) inset, 1px 2px 1px rgba(0, 0, 0, 0.3) inset, 1px 3px 3px rgba(255, 255, 255, 0.1), 1px 1px 0px rgba(255, 255, 255, 0.25);
-	border: 1px solid #000;
-	border-bottom: 1px solid #292929;
-	border-right: 1px solid #292929;
+    background-color: #222222;
+    box-shadow: 0 0 25px rgba(255, 255, 255, 0.03) inset, 0 30px 50px rgba(0, 0, 0, 0.54) inset, 1px 2px 1px rgba(0, 0, 0, 0.3) inset, 1px 3px 3px rgba(255, 255, 255, 0.1), 1px 1px 0px rgba(255, 255, 255, 0.25);
+    border: 1px solid #000;
+    border-bottom: 1px solid #292929;
+    border-right: 1px solid #292929;
 }
-
 .footer_sales .sale .thumbnail {
-	border: 1px solid #1b1b1b;
-	background-color: #000;
+    border: 1px solid #1b1b1b;
+    background-color: #000;
 }
-
 .footer_sales .sale .details .price_container .price {
-	text-shadow: 1px 1px #000;
+    text-shadow: 1px 1px #000;
 }
-
 .footer_sales .sale .details .price_container .price .list_price {
-	color: #666;
+    color: #666;
 }
-
-
-.footer_sales .sale:hover{
-	box-shadow: 0 0 25px rgba(255, 255, 255, 0.03) inset, 0 30px 50px rgba(0, 0, 0, 0.7) inset, 6px 13px 12px rgba(255,255,255,0.15) inset, 2px 5px 4px rgba(255,255,255,0.05) inset, 1px 3px 2px rgba(0, 0, 0, 0.17), 1px 1px 1px rgba(0,0,0, 0.3);
-	background-color:#303030;
+.footer_sales .sale:hover {
+    box-shadow: 0 0 25px rgba(255, 255, 255, 0.03) inset, 0 30px 50px rgba(0, 0, 0, 0.7) inset, 6px 13px 12px rgba(255, 255, 255, 0.15) inset, 2px 5px 4px rgba(255, 255, 255, 0.05) inset, 1px 3px 2px rgba(0, 0, 0, 0.17), 1px 1px 1px rgba(0, 0, 0, 0.3);
+    background-color:#303030;
 }
-
 .footer_sales .sale:hover, .footer_sales .sale.left:hover, .footer_sales .sale.right:hover {
-	border-top:1px solid #414141;
-	border-left:1px solid #454545;
+    border-top:1px solid #414141;
+    border-left:1px solid #454545;
 }
-
 .footer_sales .sale.left:hover {
-	border-right:1px solid #333;
+    border-right:1px solid #333;
 }
-
 input.sgpInput {
-	border: 1px solid rgba(0,0,0,1) !important;
+    border: 1px solid rgba(0, 0, 0, 1) !important;
 }
-
 .sgpDropdownFilterControlsAbsolute {
-	background-color: #1a1a1a;
-	border: 1px solid #363636;
+    background-color: #1a1a1a;
+    border: 1px solid #363636;
 }
-
 .absolute_dropdown {
-	background-color: #1a1a1a;
-	border: 1px solid #363636;
+    background-color: #1a1a1a;
+    border: 1px solid #363636;
 }
 ::-webkit-scrollbar {
-width: 15px;
-      background-color: #111;
+    width: 13px;
+    background-color: #111;
 }
 ::-webkit-scrollbar-thumb {
     background: #445;
@@ -627,101 +617,88 @@ width: 15px;
     background: #669;
 }
 ::-webkit-scrollbar-button {
-      background-color: #223;
+    background-color: #292929;
 }
 ::-webkit-scrollbar-button:hover {
-      background-color: #335;
+    background-color: #335;
 }
 ::-webkit-scrollbar-button:active {
-      background-color: #447;
+    background-color: #447;
 }
-
 .sgpOverlay {
-	background-color: #0b0b0b;
-	background-image: none;
-	border: 1px solid #201f1f;
+    background-color: #0b0b0b !important;
+    background-image: none !important;
+    border: 1px solid #201f1f !important;
 }
-
 #sgpIgnoredUsersAdd, #sgpTaggedUsersAdd, #sgpTaggedUsersAddTag, #sgpFilteredGamesAdd, #gi_f_entrylimit_value, .sgpIgnoredUser, .sgpTaggedUser, .sgpFilteredGame {
-	background-color: #161614 !important;
-	background-image: none !important;
-	border: 1px solid #201f1f !important;
-	color: #AAA !important;
+    background-color: #161614 !important;
+    background-image: none !important;
+    border: 1px solid #201f1f !important;
+    color: #AAA !important;
 }
-
 .navigation .search {
-	background-color: #444;
+    background-color: #444 !important;
 }
-
 .sgpIgnoredUser a.sgpRemoveListItem img, .sgpTaggedUser a.sgpRemoveListItem img, .sgpFilteredGame a.sgpRemoveListItem img {
-	opacity: 0.4 !important;
+    opacity: 0.4 !important;
 }
-
 a.button {
-	background-color: #222;
-	border: 1px solid #444;
+    background-color: #222 !important;
+    border: 1px solid #444 !important;
 }
-
 #sgpCP_Changelog {
-	padding-right: 5px;
+    padding-right: 5px !important;
 }
-
 #sgpTaggedUsersAddTag {
-	text-shadow:none;
+    text-shadow:none !important;
 }
-.wishlist .row, .recommended .row, div  [style*="border-bottom: 1px dashed #ddd"] {
-	border-bottom: 1px dashed #444 !important;
+.wishlist .row, .recommended .row, div[style*="border-bottom: 1px dashed #ddd"] {
+    border-bottom: 1px dashed #444 !important;
 }
-.wishlist .row, .recommended .row , div [style*="border-top: 1px dashed #fff"] {
-	border-top: 1px dashed #222 !important;
+.wishlist .row, .recommended .row, div[style*="border-top: 1px dashed #fff"] {
+    border-top: 1px dashed #222 !important;
 }
-div [style*="margin-top:25px; border-top:1px dashed #ddd; border-bottom:1px dashed #fff;"]{
-	border-bottom: 1px dashed #444 !important;
-	border-top: 1px dashed #222 !important;
+div[style*="margin-top:25px; border-top:1px dashed #ddd; border-bottom:1px dashed #fff;"] {
+    border-bottom: 1px dashed #444 !important;
+    border-top: 1px dashed #222 !important;
 }
-
 input[type="submit"] {
-	color: #BBB !important;
-	border-color: #888 !important;
-	border-style: groove !important;
+    color: #BBB !important;
+    border-color: #888 !important;
+    border-style: groove !important;
 }
-
 #navigation ol li.open {
-	background-color: #333;	
+    background-color: #333 !important;
 }
-
 #navigation ol li.open a.arrow {
-	background-image: url(../img/navigation_dropdown_arrow_click.png);
-	color: #CCC !important;
+    color: #CCC !important;
 }
-
 #navigation .absolute-dropdown {
-	background-color: #333 !important;
+    background-color: #333 !important;
 }
-
-#navigation .absolute-dropdown ul li a:hover{
-	color:#5555ff;
-	border:1px solid #c3caff;
+#navigation .absolute-dropdown ul li a:hover {
+    color:#f66 !important;
+    border:1px solid #EAEAEB !important;
 }
-
 .sgpDropdownMenuItems {
-	background-color: #161614 !important;
-	border: 1px solid #403f3f !important;
+    background-color: #161614 !important;
+    border: 1px solid #403f3f !important;
 }
-
 a.sgpDropdownTextboxItem {
-	text-shadow: none !important;
+    text-shadow: none !important;
 }
 .sgpDropdownTextboxItems {
-	background-color: #3a3a3a;
-	border: 1px solid #222;
-	color: #636E75;
+    background-color: #3a3a3a !important;
+    border: 1px solid #222 !important;
+    color: #636E75 !important;
 }
-}
+.winner_container, .winner_container .feedback, .winner_container .email {
+    background-color: #131313 !important;
+    text-shadow: none !important;
+}}
 @-moz-document url-prefix("http://steamgifts.com/user/"), url-prefix("http://www.steamgifts.com/user/") {
-.description {
-    width: 780px !important;
-    margin-left: 10px !important;
+    .description {
+        width: 780px !important;
+        margin-left: 10px !important;
+    }
 }
-}
-
