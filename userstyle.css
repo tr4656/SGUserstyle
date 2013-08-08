@@ -147,12 +147,13 @@ hr {
 }
 .discussions .body, .comment.child .child_container {
     background: #222 !important;
+    background-color: #222 !important;
     color: #ff7 !important;
     border: 1px solid #444 !important;
 }
 .body_container .comment_body textarea, {
     background-color: #444 !important;
-    color: #EAEAEB !important;
+    color: #444 !important;
     border: none !important;
 }
 .discussions .details .title, .discussions .details .title a {
@@ -178,6 +179,8 @@ hr {
 .discussions .body, .comment.child .child_container {
     border-left: 1px solid #444;
     border-right: 1px solid #444;
+    border:none !important;
+    border-radius: 1px;
 }
 .register .input input {
     background: #444;
@@ -276,10 +279,6 @@ a {
 }
 .comment.child .body_container .comment_reply a {
     color: #F66;
-}
-.discussions .body, .comment.child .child_container {
-    border:none !important;
-    border-radius: 1px;
 }
 .comment.parent {
     background: #222;
@@ -600,6 +599,7 @@ input.sgpInput {
     border: 1px solid #363636;
 }
 .absolute_dropdown {
+    -moz-appearance: none !important;
     background-color: #1a1a1a;
     border: 1px solid #363636;
 }
@@ -624,6 +624,33 @@ input.sgpInput {
 }
 ::-webkit-scrollbar-button:active {
     background-color: #447;
+}
+scrollbar {
+   -moz-appearance: none !important;    
+    width: 13px !important;
+    background: #111 !important;
+}
+thumb {
+    -moz-appearance: none !important;
+    border: none !important;
+    background-color: #445 !important;
+}
+thumb:hover {
+    background-color: #557 !important;
+}
+thumb:active {
+    background-color: #669 !important;
+}
+scrollbarbutton {
+   -moz-appearance: none !important;
+    border: none !important;
+    background-color: #292929 !important;
+}
+scrollbarbutton:hover {
+    background-color: #335 !important;
+}
+scrollbarbutton:active {
+    background-color: #447 !important;
 }
 .sgpOverlay {
     background-color: #0b0b0b !important;
@@ -695,6 +722,10 @@ a.sgpDropdownTextboxItem {
 .winner_container, .winner_container .feedback, .winner_container .email {
     background-color: #131313 !important;
     text-shadow: none !important;
+}
+textarea#body{
+    -moz-appearance: none !important;
+    border: 1px solid #292a2e !important;
 }}
 @-moz-document url-prefix("http://steamgifts.com/user/"), url-prefix("http://www.steamgifts.com/user/") {
     .description {
