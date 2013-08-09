@@ -723,6 +723,18 @@ a.sgpDropdownTextboxItem {
     background-color: #131313 !important;
     text-shadow: none !important;
 }
+#navigation .search .input input { 
+    padding: 0 !important; 
+    line-height: 10px; !important; 
+    height: 20px !important; 
+    width: 85px !important; 
+    margin-left: 10px !important; 
+    margin-top: 2px !important; 
+}
+#navigation .search { 
+    background-color: #444 !important; 
+    border: 1px solid #5d6a73; 
+}
 textarea#body{
     -moz-appearance: none !important;
     border: 1px solid #292a2e !important;
