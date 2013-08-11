@@ -735,6 +735,12 @@ a.sgpDropdownTextboxItem {
     background-color: #444 !important; 
     border: 1px solid #5d6a73; 
 }
+.confirm_giveaway .row{
+    background-color: #2a2a2a !important;
+    color: #EAEAEB !important; 
+    background-image: none !important
+
+}
 textarea#body{
     -moz-appearance: none !important;
     border: 1px solid #292a2e !important;
