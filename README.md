@@ -7,6 +7,10 @@ Link: http://userstyles.org/styles/91480/steamgifts-dark?r=1375820126
 Changelog
 -------------
 
+Version 0.4 
+ - Merged in SquashedPotatoe's changes
+ - Minor changes
+
 Version 0.3 Beta
  - More bug fixes
    - Grid View working (thanks SquashedPotatoe)
