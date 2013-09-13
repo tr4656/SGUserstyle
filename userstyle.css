@@ -149,10 +149,8 @@ hr {
     background-color: #222 !important;
     color: #ff7 !important;
     border: 1px solid #444 !important;
-    border:none;
-    border-radius: 5px;
 }
-.body_container .comment_body textarea, {
+.body_container .comment_body textarea {
     background-color: #444 !important;
     color: #444 !important;
     border: none !important;
@@ -222,7 +220,7 @@ hr {
 }
 .post .right {
     background: #333 !important;
-    border: 1px solid #444;
+    border: 1px solid #444 !important;
     border-radius: 5px 5px 5px 5px;
     margin-left: -1px !important;
     margin-right: -1px !important;
@@ -331,7 +329,7 @@ input[type="submit"] {
 .discussions .row.borderless {
     padding-top: 10px !important;
     padding-left: 10px !important;
-    border: none;
+    border: none !important;
     margin-bottom: 10px !important;
 }
 .row.borderless {
@@ -746,7 +744,7 @@ a.sgpDropdownTextboxItem {
 }
 #navigation .search .input input { 
     padding: 0 !important; 
-    line-height: 10px; !important; 
+    line-height: 10px !important; 
     height: 20px !important; 
     width: 85px !important; 
     margin-left: 10px !important; 
@@ -770,6 +768,19 @@ a.sgpDropdownTextboxItem {
     opacity: 0.5 !important;
     border: 1px solid #444;
     box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.2), 3px 3px 2px rgba(0, 0, 0, 0.2), 2px 2px 1px rgba(0, 0, 0, 0.1) !important;
+}
+.right[style*="background-color: rgb(175, 207, 77);"]{
+    box-shadow: inset 0px 0px 0px 100px rgba(175, 207, 77, 1)!important;
+}
+
+.right[style*="background-color: rgb(161, 89, 173);"]:not(a) {
+    box-shadow: inset 0px 0px 0px 100px rgb(161, 89, 173)!important;
+}
+.row[style*="background-color: rgb(249, 249, 249);"]{
+    box-shadow: inset 0px 0px 0px 100px rgba(0, 194, 255, 0.66) !important;
+}
+.child_container[style*="border: 1px solid rgb(52, 125, 181);"] {
+    box-shadow: inset 0px 0px 0px 1px rgb(52, 125, 181)!important;
 }
 textarea#body{
     -moz-appearance: none !important;
